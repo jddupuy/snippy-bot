@@ -1,0 +1,21 @@
+{
+  "name": "snippy-bot",
+  "version": "1.0.0",
+  "description": "Snippy bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickSison/snippy-bot.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/PatrickSison/snippy-bot/issues"
+  },
+  "homepage": "https://github.com/PatrickSison/snippy-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.0.1"
+  }
+}
