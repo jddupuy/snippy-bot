@@ -8,9 +8,19 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
-    console.log('Replied');
+  const message = msg.content.toLowerCase();
+
+  if (message === 're') {
+    msg.channel.send('REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE')
+  }
+
+  if (message === 'betty dab') {
+    msg.channel.send('https://i.imgur.com/rwElyFd.gif')
+  }
+
+  if (message === 'ligma') {
+    msg.channel.send('https://media.giphy.com/media/wIyvbQa4g7CajwxkD5/giphy.gif');
+    msg.channel.send('LIGMA BALLS');
   }
 });
 
