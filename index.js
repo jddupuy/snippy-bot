@@ -22,6 +22,10 @@ client.on('message', msg => {
     msg.channel.send('https://media.giphy.com/media/wIyvbQa4g7CajwxkD5/giphy.gif');
     msg.channel.send('LIGMA BALLS');
   }
+
+  if (message === '-dc') {
+  	msg.channel.send('https://i.imgflip.com/2zc0mi.png')
+  }
 });
 
 client.login(_.get(config, 'discord.secret'));
