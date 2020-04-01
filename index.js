@@ -15,7 +15,7 @@ client.on('message', msg => {
   }
 
   if (message === 'betty dab') {
-    msg.channel.send('https://i.imgur.com/rwElyFd.gif')
+    msg.channel.send('https://i.imgur.com/rwElyFd.gif');
   }
 
   if (message === 'ligma') {
